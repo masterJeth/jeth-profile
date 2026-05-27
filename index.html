@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jethro Velasco — Analyst & Risk Engineer</title>
+  <meta name="description" content="Personal portfolio of Jethro Velasco — Risk Engineer, Data Analyst, and hobbyist photographer." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Mono:wght@300;400&family=Instrument+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <div class="nav-inner">
+      <span class="nav-logo">JV</span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#photography">Photography</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" onclick="closeMobile()">About</a></li>
+      <li><a href="#experience" onclick="closeMobile()">Experience</a></li>
+      <li><a href="#portfolio" onclick="closeMobile()">Portfolio</a></li>
+      <li><a href="#photography" onclick="closeMobile()">Photography</a></li>
+      <li><a href="#contact" onclick="closeMobile()">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section id="about" class="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <div class="hero-eyebrow reveal">
+        <span class="dot"></span> Available for opportunities
+      </div>
+      <h1 class="hero-name reveal">
+        Jethro<br/><em>Velasco</em>
+      </h1>
+      <p class="hero-role reveal">IT Programmer &amp; Data Analyst</p>
+      <p class="hero-summary reveal">
+        Results-driven professional with experience in FinTech and Banking —
+        turning data into decisions and risk into resilience.
+      </p>
+      <div class="hero-links reveal">
+        <a href="https://www.linkedin.com/in/jsvelasco29/" target="_blank" class="btn-outline">LinkedIn</a>
+        <a href="https://www.kaggle.com/jethrovelasco" target="_blank" class="btn-outline">Kaggle</a>
+        <a href="#portfolio" class="btn-fill">View Work</a>
+      </div>
+    </div>
+    <div class="hero-stats reveal">
+      <div class="stat">
+        <span class="stat-num">8+</span>
+        <span class="stat-label">Years Experience</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">3</span>
+        <span class="stat-label">Companies</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">2×</span>
+        <span class="stat-label">Hackathon Placer</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <span class="section-tag">Career</span>
+        <h2>Work Experience</h2>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-meta">
+            <span class="timeline-period">Jan 2023 — Oct 2025</span>
+            <span class="timeline-company">GCash</span>
+          </div>
+          <div class="timeline-body">
+            <h3>Lead, Site Reliability Engineer <span class="role-tag">Fund Risk</span></h3>
+            <ul>
+              <li>Led creation of analysis &amp; evaluation documents across Online Payment, Offline Payment, Cards, Buy Load, Bills Payment, Merchant Innovations, and B2B services.</li>
+              <li>Developed internal alerts for potential Fund Loss use cases.</li>
+              <li>Monitored, mitigated, prevented, and recovered Fund Losses.</li>
+              <li>Collaborated cross-functionally to assess risks in system design and manual processes.</li>
+              <li>Automated internal manual processes using Google Apps Script.</li>
+            </ul>
+            <div class="award-badge">🏆 1st Runner Up — Gen AI Hackathon 2024</div>
+            <div class="award-badge">🥉 3rd Runner Up — AI/ML Hackathon 2023</div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-meta">
+            <span class="timeline-period">Jul 2021 — Sep 2022</span>
+            <span class="timeline-company">Robinsons Bank</span>
+          </div>
+          <div class="timeline-body">
+            <h3>Programmer / Analyst</h3>
+            <ul>
+              <li>Created and maintained biller validations and related documentation.</li>
+              <li>Fixed a critical report generator used in operations (Java, MSSQL, Oracle Toad).</li>
+              <li>Developed additional features for monitoring tools to support operations.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-meta">
+            <span class="timeline-period">Aug 2017 — Jun 2021</span>
+            <span class="timeline-company">UnionBank PH</span>
+          </div>
+          <div class="timeline-body">
+            <h3>Associate Capability Developer</h3>
+            <ul>
+              <li>Enhanced B2B and EIPP corporate websites (VB.Net, MSSQL).</li>
+              <li>Developed solutions for online tax payments and payment channel integrations.</li>
+              <li>Created services for data migration and client notification using AWS.</li>
+            </ul>
+            <div class="award-badge">🏅 Bank Heroes 2021 Awardee</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Skills -->
+      <div class="skills-block reveal">
+        <div class="skills-row">
+          <div class="skill-group">
+            <span class="skill-group-title">Languages</span>
+            <div class="skill-chips">
+              <span>Python</span><span>SQL</span><span>Java</span><span>C#</span><span>VB.Net</span><span>MSSQL</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <span class="skill-group-title">Expertise</span>
+            <div class="skill-chips">
+              <span>Risk Assessment</span><span>Data Analytics</span><span>ML / Predictive Modeling</span><span>Team Leadership</span><span>System Design</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio" class="section section-alt">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <span class="section-tag">Work</span>
+        <h2>Portfolio</h2>
+      </div>
+      <div class="portfolio-grid">
+
+        <a href="https://www.kaggle.com/jethrovelasco" target="_blank" class="portfolio-card reveal">
+          <div class="card-accent"></div>
+          <div class="card-icon">📊</div>
+          <h3>Kaggle Projects</h3>
+          <p>Data science notebooks covering predictive modeling, EDA, and machine learning challenges.</p>
+          <span class="card-link">View on Kaggle →</span>
+        </a>
+
+        <div class="portfolio-card reveal">
+          <div class="card-accent"></div>
+          <div class="card-icon">⚠️</div>
+          <h3>Fund Loss Alert System</h3>
+          <p>Built internal alerting infrastructure at GCash to detect, flag, and recover potential fund loss events across multiple payment channels.</p>
+          <span class="card-tag">GCash · Internal</span>
+        </div>
+
+        <div class="portfolio-card reveal">
+          <div class="card-accent"></div>
+          <div class="card-icon">🤖</div>
+          <h3>Gen AI Hackathon Project</h3>
+          <p>1st Runner Up solution at GCash iGnite Innovation Summit 2024 leveraging generative AI for operational improvements.</p>
+          <span class="card-tag">GCash · 2024</span>
+        </div>
+
+        <div class="portfolio-card reveal">
+          <div class="card-accent"></div>
+          <div class="card-icon">🧠</div>
+          <h3>AI/ML Hackathon Project</h3>
+          <p>3rd Runner Up solution at GCash iGnite Innovation Summit 2023 applying machine learning to FinTech risk scenarios.</p>
+          <span class="card-tag">GCash · 2023</span>
+        </div>
+
+        <div class="portfolio-card reveal">
+          <div class="card-accent"></div>
+          <div class="card-icon">⚙️</div>
+          <h3>Process Automation Suite</h3>
+          <p>Automated manual internal workflows at GCash using Google Apps Script, reducing operational overhead significantly.</p>
+          <span class="card-tag">GCash · Internal</span>
+        </div>
+
+        <div class="portfolio-card reveal">
+          <div class="card-accent"></div>
+          <div class="card-icon">🏦</div>
+          <h3>Tax Payment Integration</h3>
+          <p>Developed end-to-end solutions for online tax payments and payment channel integrations at UnionBank Philippines.</p>
+          <span class="card-tag">UnionBank · 2019</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PHOTOGRAPHY -->
+  <section id="photography" class="section">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <span class="section-tag">Hobby</span>
+        <h2>Photography</h2>
+        <p class="section-sub">Moments captured through a hobbyist's lens.</p>
+      </div>
+
+      <div class="photo-upload-note reveal">
+        <div class="upload-icon">📷</div>
+        <p>
+          This gallery is ready for your photos.<br/>
+          <strong>To add images:</strong> drop your photos into the <code>images/</code> folder and update the filenames in <code>index.html</code> under the <code>#photography</code> section.
+        </p>
+      </div>
+
+      <div class="photo-grid">
+        <!-- Replace src values with your actual image paths e.g. images/photo1.jpg -->
+        <div class="photo-item reveal" data-orientation="landscape">
+          <img data-src="images/photo1.jpg" src="images/placeholder.svg" alt="Photo 1" class="lazy" loading="lazy"/>
+          <div class="photo-overlay"><span>Untitled</span></div>
+        </div>
+        <div class="photo-item reveal" data-orientation="portrait">
+          <img data-src="images/photo2.jpg" src="images/placeholder.svg" alt="Photo 2" class="lazy" loading="lazy"/>
+          <div class="photo-overlay"><span>Untitled</span></div>
+        </div>
+        <div class="photo-item reveal" data-orientation="landscape">
+          <img data-src="images/photo3.jpg" src="images/placeholder.svg" alt="Photo 3" class="lazy" loading="lazy"/>
+          <div class="photo-overlay"><span>Untitled</span></div>
+        </div>
+        <div class="photo-item reveal" data-orientation="portrait">
+          <img data-src="images/photo4.jpg" src="images/placeholder.svg" alt="Photo 4" class="lazy" loading="lazy"/>
+          <div class="photo-overlay"><span>Untitled</span></div>
+        </div>
+        <div class="photo-item reveal" data-orientation="landscape">
+          <img data-src="images/photo5.jpg" src="images/placeholder.svg" alt="Photo 5" class="lazy" loading="lazy"/>
+          <div class="photo-overlay"><span>Untitled</span></div>
+        </div>
+        <div class="photo-item reveal" data-orientation="portrait">
+          <img data-src="images/photo6.jpg" src="images/placeholder.svg" alt="Photo 6" class="lazy" loading="lazy"/>
+          <div class="photo-overlay"><span>Untitled</span></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-alt">
+    <div class="section-inner contact-inner">
+      <div class="reveal">
+        <span class="section-tag">Connect</span>
+        <h2>Get in Touch</h2>
+        <p class="contact-desc">Open to new opportunities, collaborations, or just a conversation about data and risk.</p>
+      </div>
+      <div class="contact-links reveal">
+        <a href="mailto:jethrovelasco1996@gmail.com" class="contact-item">
+          <span class="contact-icon">✉</span>
+          <div>
+            <span class="contact-label">Email</span>
+            <span class="contact-value">jethrovelasco1996@gmail.com</span>
+          </div>
+        </a>
+        <a href="https://www.linkedin.com/in/jsvelasco29/" target="_blank" class="contact-item">
+          <span class="contact-icon">in</span>
+          <div>
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value">jsvelasco29</span>
+          </div>
+        </a>
+        <a href="https://www.kaggle.com/jethrovelasco" target="_blank" class="contact-item">
+          <span class="contact-icon">K</span>
+          <div>
+            <span class="contact-label">Kaggle</span>
+            <span class="contact-value">jethrovelasco</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-logo">JV</span>
+      <span class="footer-copy">© 2026 Jethro Velasco. Crafted with intention.</span>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
